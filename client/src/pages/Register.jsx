@@ -25,7 +25,7 @@ export const Register = () => {
 
 const navigate = useNavigate()
 const {storeTokenInLs} = useAuth()
-// const {user} = useAuth()
+
 
 
 
@@ -87,7 +87,7 @@ const {storeTokenInLs} = useAuth()
         className="bg-white shadow-md rounded-2xl p-6 w-full max-w-sm"
       >
         <h2 className="text-2xl font-bold text-center mb-6">Register</h2>
-        {/* <h1 className="text-2xl font-bold text-center mb-6">{user.username}</h1> */}
+       
         <div className="mb-4">
           <label
             htmlFor="username"
